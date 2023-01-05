@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.AB, function () {
+    game.gameOver()
+})
 let b = 0
 let a = 0
 let sprite = game.createSprite(2, 2)
